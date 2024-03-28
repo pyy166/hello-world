@@ -1,4 +1,4 @@
-name: Build and Run Java Hello World  
+name: Build and Run Hello World  
   
 on:  
   push:  
@@ -14,7 +14,7 @@ jobs:
 
         
       - name: Build Docker image  
-        run: docker build -t java-hello-world .  
+        run: docker build -t 1410916941/helloworld .  
   
       - name: Run Docker container  
-        run: docker run --rm java-hello-world
+        run: docker run --rm 1410916941/helloworld
