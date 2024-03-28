@@ -1,4 +1,4 @@
 
-docker build -t java-hello-world .  
+docker build -t 1410916941/helloworld .  
   
-docker run --rm java-hello-world
+docker run --rm 1410916941/helloworld
